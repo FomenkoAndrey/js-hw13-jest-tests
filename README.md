@@ -14,9 +14,9 @@
 
 ## 2. Виконуємо задачі для .js файлів
 
-[domContentValidator.js](src%2FdomContentValidator.js)
-[emailValidator.js](src%2FemailValidator.js)
-[urlValidator.js](src%2FurlValidator.js)
+[domContentValidator.js](src%2FdomContentValidator.js),
+[emailValidator.js](src%2FemailValidator.js),
+[urlValidator.js](src%2FurlValidator.js),
 
 ## 3. Запускаємо тести
 
