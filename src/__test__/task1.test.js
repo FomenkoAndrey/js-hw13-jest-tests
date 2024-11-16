@@ -17,6 +17,14 @@ describe('Email Validation Tests', () => {
     expect(isValidEmail('example@example.abcdef')).toBe(false)
   })
 
+  test('Rejects an email with a dot at the beginning of the domain', () => {
+    expect(isValidEmail('mail@.mail.com.ua')).toBe(false)
+  })
+
+  test('Rejects an email with a dot at the beginning of the local part', () => {
+    expect(isValidEmail('.mail@mail.com.ua')).toBe(false)
+  })
+  
   test('Handles empty string', () => {
     expect(isValidEmail('')).toBe(false)
   })
